@@ -1,0 +1,16 @@
+﻿<Window x:Class="Task_5.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task_5"
+        mc:Ignorable="d"
+        Title="3" Height="363" Width="365">
+    <Grid>
+        <TextBox x:Name="Value_1" HorizontalAlignment="Center" Height="47" Margin="0,127,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="112" FontSize="20"/>
+        <Button x:Name="ResultButton" Content="Вычислить" HorizontalAlignment="Center" Height="48" Margin="0,208,0,0" VerticalAlignment="Top" Width="128" Click="ResultButton_Click" FontSize="15" FontWeight="Bold" Background="#FF1CB3E0"/>
+        <Button x:Name="Next" Content="Вперёд" HorizontalAlignment="Left" Height="57" Margin="266,22,0,0" VerticalAlignment="Top" Width="89" FontSize="20" FontWeight="Bold" Click="Next_Click" Background="#FF1CB3E0"/>
+        <Label Content="Введите число:" HorizontalAlignment="Left" Height="41" Margin="4,130,0,0" VerticalAlignment="Top" Width="122" FontSize="15"/>
+
+    </Grid>
+</Window>
